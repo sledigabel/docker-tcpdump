@@ -5,4 +5,9 @@ A simple docker tcpdump wrapper.
 Convenient in locations where you can run docker and nothing else like minikube.
 
 ## Usage
-TBD
+
+```
+source tcpdump.sh
+tcpdump -i any # and any other option from tcpdump
+```
+
